@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>small game in a canvas</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/localeStorage.js"></script>
+  </head>
+  <body>
+    <section>
+      <div id='canvas'>
+        <canvas id="myCanvas"  width="500" height="500"></canvas>
+      </div>
+      <div id="setting">
+        <h2 id="modeGame">Customer</h2>
+        <hr noshade>
+        <table id='customer'>
+          <caption>Setting Table</caption>
+          <tr>
+            <td>Speed</td>
+            <td><input type="range" name="speed" class="speed" id="speed" min="1" max="99" value="5"></td>
+            <td><input type="number" name="speed" class="speed" min="1" max="99" value="5"></td>
+          </tr>
+          <tr>
+            <td>CountGoodBall</td>
+            <td><input type="range" name="countGoodBall" class="countGoodBall" id="countGoodBall" min="1" max="99" value="10"></td>
+            <td><input type="number" name="countGoodBall" class="countGoodBall" min="1" max="99" value="10"></td>
+          </tr>
+          <tr>
+            <td>CountBadBall</td>
+            <td><input type="range" name="countBadBall" class="countBadBall" id="countBadBall" min="1" max="99" value="3"></td>
+            <td><input type="number" name="countBadBall" class="countBadBall" min="1" max="99" value="3"></td>
+          </tr>
+          <tr>
+            <td>MinRadius</td>
+            <td><input type="range" name="minRadius" class="minRadius" id="minRadius" min="1" max="49" value="5"></td>
+            <td><input type="number" name="minRadius"  class="minRadius" min="1" max="49" value="5"></td>
+          </tr>
+          <tr>
+            <td>MaxRadius</td>
+            <td><input type="range" name="maxRadius" class="maxRadius" id="maxRadius" min="1" max="50" value="30"></td>
+            <td><input type="number" name="maxRadius" class="maxRadius" min="1" max="50" value="30"></td>
+          </tr>
+          <tr>
+            <td>Size Player</td>
+            <td><input type="range" name="sizePlayer" class="sizePlayer" id="sizePlayer" min="15" max="99" value="30"></td>
+            <td><input type="number" name="sizePlayer" class="sizePlayer" min="15" max="99" value="30"></td>
+          </tr>
+          <tr>
+            <td>Player Helth</td>
+            <td><input type="range" name="playerHealth" class="playerHealth" id="playerHealth" min="1" max="100" value="100"></td>
+            <td><input type="number" name="playerHealth" class="playerHealth" min="1" max="100" value="100"></td>
+          </tr>
+        </table>
+        <table id='classic' hidden> 
+        </table>
+        <input type="button" id='modebutton' onclick="changeModeGame()" value="Chage to Classic mode"></button>
+        <div id='shurikenblock'>
+          <h3>Choose shurikens</h3>
+          <div id='shurikenlist'></div>
+        </div>
+      </div>
+    </section>
+    <section id="rating">
+      <table id='ratingTable'>
+        <caption>RatingTable</caption>
+      </table>
+    </section>
+  </body>
+</html>

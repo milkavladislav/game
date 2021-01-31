@@ -1,0 +1,816 @@
+{
+  "classic": {
+    "speed": 1,
+    "sizePlayer": 40,
+    "playerHealth": 100,
+    "countGoodBall": 5,
+    "countBadBall": 1,
+    "minRadius": 10,
+    "maxRadius": 40
+  },
+  "gameCheckTable": [
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 1
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "1",
+      "CountBadBall": "30",
+      "Speed": "90",
+      "IsWin": "true",
+      "id": 2
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "1",
+      "CountBadBall": "30",
+      "Speed": "90",
+      "IsWin": "true",
+      "id": 3
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "1",
+      "CountBadBall": "30",
+      "Speed": "90",
+      "IsWin": "true",
+      "id": 4
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "90",
+      "IsWin": "true",
+      "id": 5
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 6
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 7
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 8
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 9
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 10
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 11
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 12
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 13
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 14
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "false",
+      "id": 15
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 16
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 17
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 18
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 19
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 20
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 21
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 22
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 23
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 24
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "5",
+      "CountBadBall": "1",
+      "Speed": "1",
+      "IsWin": "true",
+      "id": 25
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 26
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "5",
+      "IsWin": "true",
+      "id": 27
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 28
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "9",
+      "IsWin": "true",
+      "id": 29
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "13",
+      "CountBadBall": "5",
+      "Speed": "11",
+      "IsWin": "true",
+      "id": 30
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "15",
+      "CountBadBall": "6",
+      "Speed": "13",
+      "IsWin": "true",
+      "id": 31
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "17",
+      "CountBadBall": "7",
+      "Speed": "15",
+      "IsWin": "true",
+      "id": 32
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "19",
+      "CountBadBall": "8",
+      "Speed": "17",
+      "IsWin": "true",
+      "id": 33
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "21",
+      "CountBadBall": "9",
+      "Speed": "19",
+      "IsWin": "true",
+      "id": 34
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "23",
+      "CountBadBall": "10",
+      "Speed": "21",
+      "IsWin": "false",
+      "id": 35
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "25",
+      "CountBadBall": "11",
+      "Speed": "23",
+      "IsWin": "true",
+      "id": 36
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "27",
+      "CountBadBall": "12",
+      "Speed": "25",
+      "IsWin": "false",
+      "id": 37
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "29",
+      "CountBadBall": "13",
+      "Speed": "27",
+      "IsWin": "true",
+      "id": 38
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "31",
+      "CountBadBall": "14",
+      "Speed": "29",
+      "IsWin": "false",
+      "id": 39
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "33",
+      "CountBadBall": "15",
+      "Speed": "31",
+      "IsWin": "false",
+      "id": 40
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "35",
+      "CountBadBall": "16",
+      "Speed": "33",
+      "IsWin": "false",
+      "id": 41
+    },
+    {
+      "UserName": " ",
+      "CountKillBall": "37",
+      "CountBadBall": "17",
+      "Speed": "35",
+      "IsWin": "false",
+      "id": 42
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "39",
+      "CountBadBall": "18",
+      "Speed": "37",
+      "IsWin": "false",
+      "id": 43
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 44
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "2",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 45
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "2",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 46
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 47
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "5",
+      "IsWin": "true",
+      "id": 48
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 49
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 50
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 51
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 52
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 53
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 54
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "5",
+      "IsWin": "true",
+      "id": 55
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 56
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "13",
+      "CountBadBall": "5",
+      "Speed": "9",
+      "IsWin": "false",
+      "id": 57
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 58
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 59
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "5",
+      "IsWin": "false",
+      "id": 60
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 61
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 62
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 63
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 64
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 65
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 66
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "false",
+      "id": 67
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 68
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 69
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "5",
+      "IsWin": "true",
+      "id": 70
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 71
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "13",
+      "CountBadBall": "5",
+      "Speed": "9",
+      "IsWin": "true",
+      "id": 72
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "15",
+      "CountBadBall": "6",
+      "Speed": "11",
+      "IsWin": "true",
+      "id": 73
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "17",
+      "CountBadBall": "7",
+      "Speed": "13",
+      "IsWin": "false",
+      "id": 74
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "19",
+      "CountBadBall": "8",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 75
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 76
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 77
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 78
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 79
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 80
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 81
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 82
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 83
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 84
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 85
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 86
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 87
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 88
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 89
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 90
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 91
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 92
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "99",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 93
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "18",
+      "CountBadBall": "9",
+      "Speed": "13",
+      "IsWin": "true",
+      "id": 94
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "20",
+      "CountBadBall": "10",
+      "Speed": "15",
+      "IsWin": "false",
+      "id": 95
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 96
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "5",
+      "IsWin": "true",
+      "id": 97
+    },
+    {
+      "UserName": "Vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 98
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 99
+    },
+    {
+      "UserName": "vlad",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "false",
+      "id": 100
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 101
+    },
+    {
+      "UserName": "defaultPlayer",
+      "CountKillBall": "10",
+      "CountBadBall": "3",
+      "IsWin": "true",
+      "id": 102
+    },
+    {
+      "UserName": "VLad",
+      "CountKillBall": "7",
+      "CountBadBall": "2",
+      "Speed": "3",
+      "IsWin": "true",
+      "id": 103
+    },
+    {
+      "UserName": "VLad",
+      "CountKillBall": "9",
+      "CountBadBall": "3",
+      "Speed": "5",
+      "IsWin": "true",
+      "id": 104
+    },
+    {
+      "UserName": "VLad",
+      "CountKillBall": "11",
+      "CountBadBall": "4",
+      "Speed": "7",
+      "IsWin": "true",
+      "id": 105
+    },
+    {
+      "UserName": "VLad",
+      "CountKillBall": "13",
+      "CountBadBall": "5",
+      "Speed": "9",
+      "IsWin": "false",
+      "id": 106
+    }
+  ]
+}

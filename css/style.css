@@ -1,0 +1,131 @@
+canvas {
+  border: 0px;
+  background: radial-gradient(at top, #FEFFFF, #A7CECC);
+  border-radius: 5px;
+  cursor: none;
+}
+
+#canvas{
+  background: linear-gradient(to right, rgb(106, 252, 203), rgb(174, 223, 238));
+  padding: 5px;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 7px;
+}
+
+body {
+	background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+
+#setting {
+  background: linear-gradient(3deg, #b7dcf1, #b29fe2);
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+
+#typeGame{
+  text-align: center;
+}
+
+hr{
+  width: 95%;
+  height: 5px;
+  border-radius: 100%;
+  border: none;
+  background-color : rgb(108, 224, 93);
+}
+div{
+  text-align: center;
+}
+table{
+  border: 1px solid black;
+  text-align: center;
+  font: 15pt sans-serif;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+table caption{
+  font: 20pt sans-serif;
+}
+
+#rating{
+  margin-top: 10px;
+  background: #fabdbd;
+  border-radius: 5px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+}
+
+#modebutton{
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 15px 30px;
+  overflow: hidden;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(202, 152, 231);
+  background: rgba(255, 255, 255, 1);
+  transition: color .3s, background .5s;
+}
+ #modebutton:hover{
+  animation: stripes .75s infinite linear;
+  background: linear-gradient(45deg, rgba(204, 158, 235, 0.712) 25%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(204, 158, 235, 0.712) 50%,  rgba(204, 158, 235, 0.712) 75%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 1));
+  background-size: 10px 10px;
+  color: #02265c;
+ }
+
+#shurikenblock{
+  text-align: center;
+}
+
+#ratingTable{
+  width: 100%;
+}
+
+.value{
+  text-align: left;
+  padding-left: 30px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+label > input{ 
+  visibility: hidden; 
+  position: absolute; 
+}
+label > input + img{ 
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ 
+  border:2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}   
+
+@media (max-width: 1000px){
+  section{
+      display: flex;
+      flex-direction: column;
+  }
+}
